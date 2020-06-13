@@ -1,0 +1,372 @@
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../Fonts/JosefinSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Josefin Sans Italic';
+    src: url('../Fonts/JosefinSans-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Josefin Sans Bold';
+    src: url('../Fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+
+/* General Styling */
+body {
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(201, 199, 186);
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+p {
+    padding: 10px 0px;
+}
+
+span {
+    font-family: 'Josefin Sans Italic';
+}
+
+b {
+    font-family: 'Josefin Sans Bold'; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Header Styling */
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header .watermark {
+    height: auto;
+    width: 15%;
+    padding: 20px;
+    position: fixed;
+    left: 0px;
+}
+
+header .logo {
+    height: auto;
+    width: 75%;  
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+header nav{
+    font-size: 1rem;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+header nav li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header a {
+    color: rgb(201, 199, 186);
+    padding: 0px 20px;
+    font-weight: 600;
+}
+
+/* About Section Styling */
+
+#about {
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 75px 0px;
+}
+
+#about h2 {
+    font-weight: 700;
+    color: rgb(79, 1, 110);
+}
+
+#about em {
+    font-style: italic;
+}
+
+#about h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#about .signature {
+    height: 150px;
+    width: auto;
+    float: right;
+    padding: 30px;
+} 
+
+/* Locations Section Styling */
+
+#locations {
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    background-image: url(../Images/Devin-avery.jpg);
+    background-size: cover;
+    margin: 75px 0px;
+    align-items: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+#locations h2 {
+    align-items: center;
+    justify-content: center;
+    color: rgb(79, 1, 110);
+    padding: 20% 2% 5% 2%;
+    font-size: 3rem;
+    margin: auto;
+    flex-grow: 1;
+}
+
+#locations h4 {
+    margin: auto;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 40%; 
+    padding-bottom: 1.5rem;
+    color: rgb(201, 199, 186); 
+}
+
+/* Choose Section Styling */
+
+#choose {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 75px 0px;
+}
+
+#choose-title {
+    background-image: url(../Images/Herson-rodriguez.jpg);
+    background-size: cover;
+    color: rgb(201, 199, 186);
+    font-size: 8rem;
+    padding-top: 30%;
+    padding-bottom: 20%;
+    height: auto;
+    width: 100%;
+}
+
+#choose .item {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+#choose img {
+    margin: 40px 20px;
+    height: 100px;
+    width: auto;
+    border: 4px solid black;
+    border-radius: 10%;
+}
+
+#choose .item h4 {
+    padding: 30px 10px;
+}
+
+/* Coming Soon Section Styling */
+
+#coming_soon_banner {
+    height: auto;
+    width: 100%;  
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#coming_soon_banner img {
+    height: auto;
+    width: 100%;  
+}
+
+#coming_soon {
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: 30px auto;
+    padding-bottom: 200px;
+}
+
+#coming_soon h2 {
+    font-weight: 700;
+    color: rgb(79, 1, 110);
+}
+
+#coming_soon em {
+    font-style: italic;
+}
+
+#coming_soon h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#coming_soon .signature {
+    height: 150px;
+    width: auto;
+    float: right;
+    padding: 30px;
+} 
+
+/* Join Section Styling */
+
+#join-title {
+    background-image: url(../Images/raymond-tan-yiY6CsbFXIE-unsplash.jpg);
+    background-size: cover;
+    color: rgb(201, 199, 186);        
+    font-size: 8rem;
+    padding-top: 20%;
+    padding-bottom: 15%;
+    height: auto;
+    width: 100%;
+}
+
+#join {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 75px 0px;
+}
+
+#join .item {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+#join img {
+    margin: 40px 20px;
+    height: 100px;
+    width: auto;
+    border: 4px solid black;
+    border-radius: 10%;
+}
+
+/* Inspired Section Styling */
+
+#inspired-title {
+    background-image: url(../Images/Backdrop2.jpg);
+    color: rgb(201, 199, 186);
+    font-size: 8rem;
+    padding-top: 100px;
+    height: 220px;
+    width: 100%;
+}
+
+/* Contact Section Styling */
+
+#contact {
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    background-image: url(../Images/Christian-kaindl.jpg);
+    background-size: cover;
+    margin: 75px 0px;
+    align-items: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h2 {
+    align-items: center;
+    color: rgb(79, 1, 110);
+    justify-content: center;
+    padding: 20% 2% 5% 2%;
+    font-size: 3rem;
+    margin: auto;
+    flex-grow: 1;
+}
+
+#contact h4 {
+    margin: auto;
+    color: rgb(201, 199, 186);
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 40%; 
+    padding-bottom: 1.5rem;  
+}
+/* F.A.Q. Section Styling */
+
+#faq-title {
+    background-image: url(../Images/tj-holowaychuk-hfjVdnFk5Xw-unsplash.jpg);
+    background-size: cover;
+    color: rgb(201, 199, 186);        
+    font-size: 8rem;
+    padding-top: 20%;
+    padding-bottom: 15%;
+    height: auto;
+    width: 100%;
+}
+
+#faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 75px 0px;
+}
+
+#faq .item {
+    display: flex;
+    width: 55%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Footer Styling */
+
+footer {
+    background-color: black;
+    width: 100%;
+    color:  rgb(201, 199, 186);
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+
+footer h4 {
+    
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+footer h4 a{
+    
+    color: rgb(201, 199, 186);
+}
