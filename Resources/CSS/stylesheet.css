@@ -370,3 +370,12 @@ footer h4 a{
     
     color: rgb(201, 199, 186);
 }
+
+/* Responsive Design Elements   */
+
+@media only screen and (max-width: 720px) {
+    body {
+        font-size: 20px;
+    }
+
+}
