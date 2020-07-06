@@ -33,7 +33,7 @@ h2 {
 }
 
 h4 {
-    font-size: 1.25 rem;
+    font-size: 1.25rem;
 }
 
 p {
@@ -316,7 +316,7 @@ header a {
 
 #contact h4 {
     margin: auto;
-    color: rgb(201, 199, 186);
+    color: black;
     font-weight: 600;
     width: 40%; 
     padding-bottom: 1.5rem;  
@@ -378,5 +378,17 @@ footer h4 a{
 
     h4 {
         font-size: 1.75rem;
+    }
+
+    #faq .item {
+        width: 80%;
+    }
+
+    #join .item {
+        width: 80%;
+    }
+
+    #choose .item {
+        width: 80%;
     }
 }
