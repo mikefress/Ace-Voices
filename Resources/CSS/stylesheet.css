@@ -32,6 +32,10 @@ h2 {
     padding: 20px 0px;
 }
 
+h4 {
+    font-size: 1.25 rem;
+}
+
 p {
     padding: 10px 0px;
 }
@@ -111,7 +115,6 @@ header a {
 }
 
 #about h4 {
-    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -149,7 +152,6 @@ header a {
 
 #locations h4 {
     margin: auto;
-    font-size: 1.25rem;
     font-weight: 600;
     width: 40%; 
     padding-bottom: 1.5rem;
@@ -229,7 +231,6 @@ header a {
 }
 
 #coming_soon h4 {
-    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -316,7 +317,6 @@ header a {
 #contact h4 {
     margin: auto;
     color: rgb(201, 199, 186);
-    font-size: 1.25rem;
     font-weight: 600;
     width: 40%; 
     padding-bottom: 1.5rem;  
@@ -361,13 +361,11 @@ footer {
 }
 
 footer h4 {
-    
     padding: 20px;
     line-height: 1.5rem;
 }
 
-footer h4 a{
-    
+footer h4 a{  
     color: rgb(201, 199, 186);
 }
 
@@ -378,4 +376,7 @@ footer h4 a{
         font-size: 20px;
     }
 
+    h4 {
+        font-size: 1.75rem;
+    }
 }
