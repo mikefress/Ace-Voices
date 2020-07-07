@@ -33,7 +33,7 @@ h2 {
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 1.25rem;
 }
 
 p {
@@ -373,11 +373,11 @@ footer h4 a{
 
 @media only screen and (orientation: portrait) {
     body {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     h4 {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 
     #faq .item {
